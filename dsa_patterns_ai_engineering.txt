@@ -1,0 +1,189 @@
+
+DSA Patterns & Approaches for AI Engineering
+===========================================
+
+1. Arrays & Strings
+-------------------
+
+A. Traversal Pattern
+- Iterate through elements one by one
+- Used for counting, filtering, aggregation
+
+B. Two Pointer Pattern
+- Opposite direction pointers
+- Same direction pointers
+- Fast & slow pointers
+- Used in pair sum, palindrome, sorted arrays
+
+C. Sliding Window Pattern
+- Fixed-size window
+- Dynamic-size window
+- Used in substring and streaming problems
+
+D. Prefix Sum Pattern
+- Store cumulative sums
+- Used for range sum queries
+
+E. Frequency Count Pattern
+- Count occurrences using HashMap
+- Used in NLP, analytics, duplicates
+
+F. Merge Pattern
+- Merge two sorted arrays/lists
+- Used in interval and ranking problems
+
+
+2. HashMap & Set Patterns
+-------------------------
+
+A. Lookup Optimization
+- Replace nested loops with hash lookup
+- Convert O(n^2) to O(n)
+
+B. Frequency Map
+- Count repeated elements
+
+C. Grouping Pattern
+- Group data by category/key
+
+D. Cache/Memoization
+- Store already computed results
+
+E. Duplicate Detection
+- Use Set for fast existence checking
+
+
+3. Sorting Patterns
+-------------------
+
+A. Sort + Scan
+- Sort first, process later
+
+B. Custom Sorting
+- Sort using conditions or keys
+
+C. Greedy After Sorting
+- Sort then make optimal choices
+
+D. Interval Sorting
+- Sort intervals by start/end
+
+
+4. Stack Patterns
+-----------------
+
+A. Balanced Parentheses
+
+B. Undo/Redo Pattern
+
+C. Monotonic Stack
+- Increasing stack
+- Decreasing stack
+
+D. Expression Evaluation
+
+E. Backtracking Support
+
+
+5. Queue Patterns
+-----------------
+
+A. BFS Traversal
+
+B. Producer-Consumer Queue
+
+C. Sliding Window Queue
+
+D. Task Scheduling
+
+E. Streaming Processing
+
+
+6. Complexity Analysis Patterns
+-------------------------------
+
+A. Single Loop -> O(n)
+
+B. Nested Independent Loops -> O(n^2)
+
+C. Nested Dependent Loops -> Often O(n)
+
+D. Sorting Based -> O(n log n)
+
+E. Hashing Based -> O(n)
+
+F. Binary Search -> O(log n)
+
+
+7. Core Interview Problem Patterns
+----------------------------------
+
+A. Two Sum Pattern
+- HashMap lookup
+
+B. Longest Substring Pattern
+- Sliding window + Set
+
+C. Top K Elements
+- Heap/Priority Queue
+
+D. Merge Intervals
+- Sorting + Merge
+
+E. Frequency Ranking
+- HashMap + Heap
+
+F. Prefix Sum Queries
+
+G. Fast Lookup Problems
+
+H. Window Optimization Problems
+
+
+8. AI Engineering Relevant DSA Usage
+------------------------------------
+
+A. HashMap
+- Metadata storage
+- Session memory
+- Caching
+
+B. Sliding Window
+- Token processing
+- Streaming logs
+
+C. Queue
+- Async pipelines
+- Task execution
+
+D. Stack
+- Agent rollback
+- Workflow states
+
+E. Heap
+- Ranking systems
+- Retrieval scoring
+
+F. Sorting
+- Recommendation ranking
+- Search ordering
+
+
+9. Most Important Topics to Master
+----------------------------------
+
+1. Arrays
+2. Strings
+3. HashMap
+4. Set
+5. Sorting
+6. Two Pointers
+7. Sliding Window
+8. Stack
+9. Queue
+10. Complexity Analysis
+
+Recommended Level:
+- Easy -> Strong
+- Medium -> Comfortable
+- Hard -> Optional
